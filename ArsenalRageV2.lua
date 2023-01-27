@@ -80,7 +80,7 @@ Name.BackgroundTransparency = 1.000
 Name.Position = UDim2.new(0.00899996888, 1, 0.0129999984, 0)
 Name.Size = UDim2.new(0, 45, 0, 17)
 Name.Font = Enum.Font.GothamBold
-Name.Text = "V0.2"
+Name.Text = "V0.2.2"
 Name.TextColor3 = Color3.fromRGB(255, 255, 255)
 Name.TextSize = 15.000
 
