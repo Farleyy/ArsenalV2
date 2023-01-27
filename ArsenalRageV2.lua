@@ -812,7 +812,7 @@ local function PQKA_fake_script() -- Esp.LocalScript
 		local Typing = false
 	
 		_G.SendNotifications = false   -- If set to true then the script would notify you frequently on any changes applied and when loaded / errored. (If a game can detect this, it is recommended to set it to false)
-		_G.DefaultSettings = true   -- If set to true then the boxes script would run with default settings regardless of any changes you made.
+		_G.DefaultSettings = false   -- If set to true then the boxes script would run with default settings regardless of any changes you made.
 	
 		_G.TeamCheck = true   -- If set to true then the script would create boxes only for the enemy team members.
 	
