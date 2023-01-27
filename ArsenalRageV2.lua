@@ -162,7 +162,7 @@ infintejump.BorderSizePixel = 0
 infintejump.Position = UDim2.new(0.0287958123, 0, 0.256594718, 0)
 infintejump.Size = UDim2.new(0, 134, 0, 28)
 infintejump.Font = Enum.Font.SourceSansBold
-infintejump.Text = "Infinite Jump"
+infintejump.Text = "Inf Jump"
 infintejump.TextColor3 = Color3.fromRGB(255, 255, 255)
 infintejump.TextSize = 14.000
 
